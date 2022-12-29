@@ -1,0 +1,145 @@
+body {
+  background-color: #23252C;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 900px;
+  background-color: #1A1B21;
+  border-radius: 10px;
+}
+
+.header-img {
+  position: relative;
+  display: block;
+  bottom: 30px;
+  width: 320px;
+  height: 300px;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: 0px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-family: sans-serif;
+}
+
+.name {
+  position: relative;
+  bottom: 15px;
+  font-size: 30px;
+}
+
+.job {
+  position: relative;
+  bottom: 10px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #F3BF99;
+}
+
+.website {
+  position: relative;
+  bottom: 5px;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.button-list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  padding: 20px;
+}
+
+.button-list button {
+  width: 110px;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.button1 {
+  background-color: #FFFF;
+  color: #374151;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  background-color: #5093E2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin , .mail {
+  margin: 3px;
+}
+
+.about-div {
+  position: relative;
+  color: white;
+  padding: 10px;
+  bottom: 0px;
+}
+
+.About-title , .About-interests{
+  padding: 15px 0px;
+}
+
+.about {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.interests {  
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.Footer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 30px;
+  width: 320px;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #161619;
+  border-radius: 0 0 10px 10px;
+}
+
+.icon {
+  font-size: 40px;
+  color: #918E9B;
+}
